@@ -38,6 +38,8 @@ export const StyledInput = styled.input`
   }
 `;
 
-export const StyledTextarea = styled(StyledInput as 'textarea').attrs({ as: 'textarea' })<TextareaProps>`
-  resize: ${props => !props.isResizable && 'none'}
+export const StyledTextarea = styled(StyledInput as 'textarea').attrs({
+  as: 'textarea',
+})<TextareaProps>`
+  resize: ${(props) => !props.isResizable && 'none'};
 `;
