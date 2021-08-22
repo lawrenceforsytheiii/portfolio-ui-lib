@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { Field } from './Field';
 
-jest.mock('../utils/useUniqueId');
+jest.mock('../utils/useUniqueID');
 
 describe('Field', () => {
   describe('Label', () => {
